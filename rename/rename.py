@@ -13,7 +13,7 @@ def fk(filename, src, dst):
     return strinfo.sub(dst, filename)
 
 def get_input(str):
-    """Get the directory"""
+    '''Get the directory and the substrings'''
     while(True):
         path = raw_input(str)
         if not path:
