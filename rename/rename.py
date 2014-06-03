@@ -26,7 +26,7 @@ def Main():
     
     path = get_input("Path>>>")
     src = get_input("SubstringToSubstitute>>>")
-    dst = get_input("SubstringSubstituteTo>>>")
+    dst = raw_input("SubstringSubstituteTo>>>")
 
     listfile = os.listdir(path)
     os.chdir(path)
