@@ -1,3 +1,8 @@
+'''
+This is a python script to rename the name of the files under the same directory.
+But the present version is that intellignet. It just can substitute the common
+substring in the names with another common string.
+'''
 import os
 import sys
 import re
@@ -8,9 +13,10 @@ def fk(filename, src, dst):
     return strinfo.sub(dst, filename)
 
 def get_input(str):
+    """Get the directory"""
     while(True):
         path = raw_input(str)
-        if path is None:
+        if not path:
             print "The Directory can't be Null"
         else:
             break
