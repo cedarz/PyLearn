@@ -9,4 +9,4 @@ rename/
 
 change_css_in_epub/
 +css.py
-=>
+=>to substitute the old-not-compatible css style file(.css file) with a new one
