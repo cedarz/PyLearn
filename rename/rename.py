@@ -1,7 +1,8 @@
 '''
 This is a python script to rename the name of the files under the same directory.
-But the present version is that intellignet. It just can substitute the common
-substring in the names with another common string.
+But the present version is not that intelligent. It just can substitute the common
+substring. eg. egg_1.txt,gee_2.txt  ==>   duck_1.txt,duck_2.txt.
+You see, it sucks.
 '''
 import os
 import sys
