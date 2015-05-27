@@ -6,7 +6,7 @@ from HTMLParser import HTMLParser
 udict = {}
 
 class MyHtmlParser(HTMLParser):
-    def __init__(self, _reg = r"µÚ\d*¿Î", _songname = "Kunfu Panda"):
+    def __init__(self, _reg = r"ç¬¬\d*è¯¾", _songname = "Kunfu Panda"):
         HTMLParser.__init__(self)
         self.songname = _songname
         self.text_print = False
@@ -38,7 +38,7 @@ parser.feed(page)
 parser.close()
 for name, urls in parser.result().items():
     print name, urls
-    parser = MyHtmlParser(r"MP3ÏÂÔØ")
+    parser = MyHtmlParser(r"MP3ä¸‹è½½")
     subpage = urllib2.urlopen(urls).read()
     parser.feed(subpage)
     parser.close()
