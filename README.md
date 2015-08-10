@@ -3,13 +3,13 @@ PyLearn
 
 python timeline.
 
-rename/
-+rename.py
-=>to rename the name of the files under the same directory
+1. rename/
+- rename.py
+*WHAT:*to rename the name of the files under the same directory
 
-change_css_in_epub/
-+css.py
-=>to substitute the old-not-compatible css style file(.css file) with a new one
+2. change_css_in_epub/
+- css.py
+*WHAT:*to substitute the old-not-compatible css style file(.css file) with a new one
 
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> are supported
